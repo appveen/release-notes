@@ -41,7 +41,7 @@ data.stack has been built on top of ODP 3.9 and some of these changes does not g
 
 ## Builds
 
-| Component | Image | Checksum |
+| Component | Image | Image ID |
 |--|--|--|
 | Proxy | data.stack:proxy.1.0.0 | 52b5d4eea8cb |
 | Gateway | data.stack:gw.1.0.0 | 8e419631b37f |
