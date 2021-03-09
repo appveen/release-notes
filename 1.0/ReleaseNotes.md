@@ -37,22 +37,22 @@ data.stack has been built on top of ODP 3.9 and some of these changes does not g
 
 ## Issues fixed
 
-* None
+* N.A
 
 ## Builds
 
 | Component | Image | Checksum |
 |--|--|--|
-| Proxy | data.stack:proxy.1.0.0 | |
-| Gateway | data.stack:gw.1.0.0 | |
-| Service manager | data.stack:sm.1.0.0 | |
-| Base image | data.stack:base.1.0.0 | |
-| Partner manager | data.stack:pm.1.0.0 | |
-| B2B gateway | data.stack:b2bgw.1.0.0 | |
-| User management | data.stack:user.1.0.0 | |
-| Notification engine | data.stack:ne.1.0.0 | |
-| Monitoring | data.stack:mon.1.0.0 | |
-| Security | data.stack:sec.1.0.0 | |
+| Proxy | data.stack:proxy.1.0.0 | 52b5d4eea8cb |
+| Gateway | data.stack:gw.1.0.0 | 8e419631b37f |
+| Service manager | data.stack:sm.1.0.0 | 88cff7e8971b |
+| Base image | data.stack:base.1.0.0 | 075d11bfe14b |
+| Partner manager | data.stack:pm.1.0.0 | a092dd42ae4f |
+| B2B gateway | data.stack:b2bgw.1.0.0 | 53369827a7a0 |
+| User management | data.stack:user.1.0.0 | 7e1cc6999beb |
+| Notification engine | data.stack:ne.1.0.0 | 4b8e638677d2 |
+| Monitoring | data.stack:mon.1.0.0 | f70010b456c7 |
+| Security | data.stack:sec.1.0.0 | c2f327f11f73 |
 
 ## Changelog
 
