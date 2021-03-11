@@ -22,7 +22,7 @@ Also, the biggest of all improvements in appveen data.stack 1.0 is that it is no
 
 In all aspects you should treat appveen data.stack 1.0 as a new product. But if you are an existing customer, this document explains what changes went into the product.
 
-# 1.0 - Mar 8, 2021
+# 1.0.0 - Mar 8, 2021
 
 data.stack has been built on top of ODP 3.9 and some of these changes does not guarantee backward compatibility. Please refer to the [Moving to appveen data.stack 1.0 from Omni-Data Platform 3.9](./Moving%20to%20appveen%20data.stack%201.0%20from%20Omni-Data%20Platform%203.9.pdf) document to help you migrate.
 
