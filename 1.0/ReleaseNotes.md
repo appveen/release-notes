@@ -5,7 +5,12 @@
 - [Release notes for appveen data.stack 1.0](#release-notes-for-appveen-datastack-10)
 - [Table of contents](#table-of-contents)
 - [Preface](#preface)
-- [1.0.0 - Mar 8, 2021](#100---mar-8-2021)
+- [1.0.1 - April 28, 2021](#100---april-8-2021)
+	- [Features](#features)
+	- [Issues fixed](#issues-fixed)
+	- [Builds](#builds)
+	- [Changelog](#changelog)
+- [1.0.0 - March 8, 2021](#100---march-8-2021)
 	- [Features](#features)
 	- [Issues fixed](#issues-fixed)
 	- [Builds](#builds)
@@ -118,6 +123,26 @@ In all aspects you should treat appveen data.stack 1.0 as a new product. But if 
 * DEF1087 : [Author] [Services] User is not getting notified when user start/stop/deploy/delete service
 * DEF1074 : [Appcenter] Values for relation to USER is displayed as [object,Object] in view screen
 
+## Builds
+
+| Component | Image | Image ID |
+|--|--|--|
+| Proxy | data.stack:proxy.1.0.1 | fbcfb609c3db |
+| Gateway | data.stack:gw.1.0.1 | 379a2cd92416 |
+| Service manager | data.stack:sm.1.0.1 | e1a5545b54c3 |
+| Base image | data.stack:base.1.0.1 | f751fe1532a9 |
+| Partner manager | data.stack:pm.1.0.1 | 2b2ce77e31f9 |
+| B2B gateway | data.stack:b2bgw.1.0.1 | e8bb879191ea |
+| User management | data.stack:user.1.0.1 | bc924e91e03a |
+| Notification engine | data.stack:ne.1.0.1 | 30dfe5d7b3af |
+| Monitoring | data.stack:mon.1.0.1 | 7ebe6d4185ae |
+| Security | data.stack:sec.1.0.1 | a0cbc470fe50 |
+
+## Changelog
+[1.0.1 Changelog](./1.0.1-Changelog.md)
+
+
+
 # 1.0.0 - March 8, 2021
 
 data.stack has been built on top of ODP 3.9 and some of these changes does not guarantee backward compatibility. Please refer to the [Moving to appveen data.stack 1.0 from Omni-Data Platform 3.9](./Moving%20to%20appveen%20data.stack%201.0%20from%20Omni-Data%20Platform%203.9.pdf) document to help you migrate.
@@ -135,25 +160,11 @@ data.stack has been built on top of ODP 3.9 and some of these changes does not g
 
 * N.A
 
-## Builds
-
-| Component | Image | Image ID |
-|--|--|--|
-| Proxy | data.stack:proxy.1.0.1 | fbcfb609c3db |
-| Gateway | data.stack:gw.1.0.1 | 379a2cd92416 |
-| Service manager | data.stack:sm.1.0.1 | e1a5545b54c3 |
-| Base image | data.stack:base.1.0.1 | f751fe1532a9 |
-| Partner manager | data.stack:pm.1.0.1 | 2b2ce77e31f9 |
-| B2B gateway | data.stack:b2bgw.1.0.1 | e8bb879191ea |
-| User management | data.stack:user.1.0.1 | bc924e91e03a |
-| Notification engine | data.stack:ne.1.0.1 | 30dfe5d7b3af |
-| Monitoring | data.stack:mon.1.0.1 | 7ebe6d4185ae |
-| Security | data.stack:sec.1.0.1 | a0cbc470fe50 |
 
 ## Changelog
 
 [1.0.0 Changelog](./1.0.0-Changelog.md)
-[1.0.1 Changelog](./1.0.1-Changelog.md)
+
 
 # Support
 
