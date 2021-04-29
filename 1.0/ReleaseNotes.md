@@ -5,7 +5,7 @@
 - [Release notes for appveen data.stack 1.0](#release-notes-for-appveen-datastack-10)
 - [Table of contents](#table-of-contents)
 - [Preface](#preface)
-- [1.0.1 - April 28, 2021](#100---april-8-2021)
+- [1.0.1 - April 28, 2021](#100---april-28-2021)
 	- [Features](#features)
 	- [Issues fixed](#issues-fixed)
 	- [Builds](#builds)
