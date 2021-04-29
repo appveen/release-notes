@@ -22,7 +22,103 @@ Also, the biggest of all improvements in appveen data.stack 1.0 is that it is no
 
 In all aspects you should treat appveen data.stack 1.0 as a new product. But if you are an existing customer, this document explains what changes went into the product.
 
-# 1.0.0 - Mar 8, 2021
+# 1.0.1 - April 28,2021
+
+## Features
+
+* N.A
+
+## Issues Fixed
+
+* DEF1166 : [Appcenter] [Bulk Upload] Lock symbol is not displayed in list screen when a workflow enabled record is updated via bulk upload
+* DEF1211 : [Appcenter][Advance filter]:For date type less than option is not working as expected.
+* DEF1157 : [Appcenter][Adavnce filter]:Unable to edit and save the filter for search by date attributes.
+* DEF1203 : Stuck in no permissions page in appcenter
+* DEF1082 : [Appcenter] [Bulk Upload] [Notifications] User not getting notifications if import fails
+* DEF1123 : [Appcenter] [Workflow] Inline filters for all attributes is not working
+* DEF1220 : [Appcenter] inline filter for date is accepting 6 digits for year
+* DEF1219 : "[Appcenter] for rel of secure text, checksum column is not needed in downloaded file
+* DEF1215 : [Appcenter] [Export All in downloaded file for some ID is displayed for some _id is displayed
+* DEF1216 : [Swagger API] Records are being created even upsert is false for PUT method
+* DEF1212 : When auto suggestion dropdown is open and user scrolls UI is breaking 
+* DEF1213 : [Appcenter] If search on field is number, values are not displayed in suggestion"
+* DEF1113 : [Appcenter][WorkFlow] When an approval of a record fails, it should show a toaster why it is failed.. 
+* DEF1205 : Inline Filter is not working for Date fields
+* DEF1103 : [Appcenter] [Export All] for relations, attribute name is displayed as undefined"
+* DEF1209 : [Appcenter] [Filters] Advanced filters not equal and not contains for location attribute aren't working as expected.
+* DEF1208 : [Appcenter] [Work Flow] Approval is failing
+* DEF1194 : [Author] Purge All Logs is not working
+* DEF1167 : [Appcenter] [Workflow] [Bulk Upload] Conflict records are going under 'New Records' in workflow listing screen
+* DEF1154 : "[Appcenter] [Relation] If last attribute is relation, unable to select value from auto suggestions"
+* DEF1079 : [Appcenter] [Bulk Upload] Records not populated/displayed in listing screen until user refresh the screen
+* DEF1210 : [Author] Upsert option is not there for PUT methods in swagger doc
+* DEF1202 : The appcenter side menu of the list of data services is not clickable if I am already in the DS e.g. if I am in accounts and I want to refresh the account data, clicking on Accounts on the side menu does not refresh the list.
+* DEF1199 : [Appcenter] [Bulk Upload] Data for Location attribute is not fetched when formatted address column is mapped
+* DEF1176 : [Appcenter][Workflowflow][advance Filter]:When a user creates and applies an advance filter in draft tab or draft listing page ,the filter should be applied for all the tabs(new records,update and delete tabs).
+* DEF1195 : [Author] 'Delete data permanently when a record is deleted at the App Center' is not working as expected
+* DEF1207 : [Appcenter]Experience hook not working in  view screen
+* DEF1184 : [Author][Library]:On creating/Editing a library and selecting unique property for library ,its throwing error message: 'Cannot read property 'app' of null'.
+* DEF1144 : [Appcenter][Advance filter]:After applying advance filter on location data type attribute ,the value for that attribute are cleared in listing page until refreshed.
+* DEF1147 : [Appcenter][Advance filter]:Unable to set time for date and time attribute in advance filter search by option.
+* DEF1204 : On purge data screen, the  text remain even after cancelling"
+* DEF1198 : [Author][Roles] Hide Conditions
+* DEF1115 : [Author][Users] Add uses - If there is only one Authentication method, do not show the Auth method option in the form"
+* DEF1188 : [Author][Library]:On creating a library with name which already exists the error is thrown but the library page goes to processing state.
+* DEF1146 : [Author][DS]:For an attribute of data type -date and time , on setting the default value only the date is displayed and time is not displayed  in UI.
+* DEF1133 : [Appcenter][DS]:For a data service with an attribute of  type text the pattern match (regex ) is not working.
+* DEF1187 : [Appcenter] [Workflow] Data is updated and displayed in DS listing screen even before record is approved
+* DEF1170 : [Author][Insights]:Provide clear filter option for insights inline filter.
+* DEF1159 : [Appcenter][Advance filter]:For relation attribute the advance filter option for search by is not working for equal to ,not equal to and not contains.
+* DEF1177 : [Appcenter][Advance filter]:User should not be able to edit and save view of global filter created and saved by another user.
+* DEF1145 : [Appcenter][Advance filter]:Applying advance filter on user type attribute is not working as expected.
+* DEF1169 : [Appcenter][Workflow][Inline filter]:The date and date & time attributes inline filter are not working
+* DEF1190 : [Appcenter] Data in unmapped columns are getting updated to null(NA)
+* DEF1107 : [Appcenter] [Bulk Upload] Values of 'Create Only' attributes are getting updated 
+* DEF1089 : [Author][Main User Panel]:After selecting 'n' number of users and deleting it,its again selecting 'n' number of user to delete.
+* DEF1164 : [Author][Insights]:For DS tab in insights,when incorrect inline filter valuse is prodived for status column its throwing error .
+* DEF1174 : [Appcenter] [Bulk Upload] Encrypted values are displayed for Secure text attributes while updating in review screen
+* DEF1071 : [Author] When a service is deployed, records count is displayed as '0'"
+* DEF1173 : [Appcenter] [Bulk Upload] Values for Col of text attributes are being updated to null 
+* DEF1110 : [Appcenter] Filter for location is not working
+* DEF1116 : [Author][Users] Add user modal - mandatory fields are not shown
+* DEF1114 : [Author][Users] Attributes modal - multiple issues
+* DEF1081 : [Appcenter] [Bulk Upload] when user re-upload from review screen, secure text attribute is breaking in mapping screen
+* DEF1168 : [Appcenter] [Workflow] Getting error when records in DS listing screen are opened in view/edit mode
+* DEF1175 : [Appcenter] Getting Unique check failed error while updating  records
+* DEF1149 : [Appcenter] [Bulk Upload] When user maps Location 'user input', only raw location is updated
+* DEF1069 : [Data Service] Cannot pass null to a filter
+* DEF1152 : [Appcenter] for user attribute, values are not validated before saving
+* DEF1151 : [Appcenter] [Workflow] Unique check is being validated while approving the records
+* DEF1072 : Unique check for number attribute is not working
+* DEF1119 : [Appcenter] [Workflow] Unable to attach files while responding pending records
+* DEF1085 : [Appcenter] [workflow] Only 'anyone' is displayed in responded by  dropdown
+* DEF1135 : [Appcenter] [Bulk Upload] Showing Unique error when even unique attribute is not mapped
+* DEF1068 : [Auth-local ]:Restrict updating the username in app user tab and in main user panel .
+* DEF1155 : [Author] [Admin Panel] Getting 'Invalid server error' when trying to delete user which is in use of a record
+* DEF1141 : [Appcenter] [Bulk Upload] Error message is not displayed under errors when bulk  upload fails
+* DEF1160 : [Appcenter] [Export All] Data in date column is being changed
+* DEF1129 : [Appcenter][Advance filter]:In advance filter for a ds, when selecting the column names to be displayed in listing page the attribute name are listed instead of listing thecustom label name for columns field in advance filter.
+* DEF1118 : [Appcenter][Advance Filter]:On creating an advance filter,for an attibute of type date providing the seach type 'in range' on saving the view is removing the to date value.
+* DEF1148 : [Appcenter] [Bulk Upload] When User export date field and do bulk upload with same data, throwing error as invalid date format
+* DEF1035 : [Author][Group]:For members and bots tab in group do the following changes  provided in description
+* DEF1120 : [Appcenter] Getting error when related search on field is number 
+* DEF1122 : "[Appcenter] [Workflow] [Advance Filters] In search for, under data columns attribute names are not there
+* DEF1053 : [Author] Takes greater value for default value than max limit.
+* DEF1112 : [Appcenter] Relation to user field shows the value in the drop down as [object Object]. 
+* DEF1090 : [Author][Bookmarks] Screen hangs when the user clicks on background of unsaved changes pop-up.
+* DEF1102 : [Appcenter] for relation of secure text in listing screen in tool tip, secure text should be displayed as '*****'
+* DEF1093 : [Author] [Relation of Secure Text] Under advance properties, in search on field and view field, value and checksum are displayed
+* DEF1092 : [Author] [Relation] Under advance properties, when user deletes value from added list of view fields, attribute name is displayed as undefined
+* DEF1101 : [Appcenter] for relation of secure text in listing screen in tool tip, secure text should be displayed as '*****'
+* DEF1042 : [Author][App panel]:After saving the changes in app panel the user is landing on data service page.
+* DEF1026 : [Author] [Hooks] Preview link should be in listing screen instead of in each hook
+* DEF1086 : [Appcenter] Filters not working for secure text and dates
+* DEF1100 : [Appcenter] Advance filter and reset  are not working
+* DEF1105 : [Appcenter] If user typer attribute is there in service then records are not displayed in appcenter UI
+* DEF1087 : [Author] [Services] User is not getting notified when user start/stop/deploy/delete service
+* DEF1074 : [Appcenter] Values for relation to USER is displayed as [object,Object] in view screen
+
+# 1.0.0 - March 8, 2021
 
 data.stack has been built on top of ODP 3.9 and some of these changes does not guarantee backward compatibility. Please refer to the [Moving to appveen data.stack 1.0 from Omni-Data Platform 3.9](./Moving%20to%20appveen%20data.stack%201.0%20from%20Omni-Data%20Platform%203.9.pdf) document to help you migrate.
 
@@ -43,20 +139,21 @@ data.stack has been built on top of ODP 3.9 and some of these changes does not g
 
 | Component | Image | Image ID |
 |--|--|--|
-| Proxy | data.stack:proxy.1.0.0 | 52b5d4eea8cb |
-| Gateway | data.stack:gw.1.0.0 | 8e419631b37f |
-| Service manager | data.stack:sm.1.0.0 | 88cff7e8971b |
-| Base image | data.stack:base.1.0.0 | 075d11bfe14b |
-| Partner manager | data.stack:pm.1.0.0 | a092dd42ae4f |
-| B2B gateway | data.stack:b2bgw.1.0.0 | 53369827a7a0 |
-| User management | data.stack:user.1.0.0 | 7e1cc6999beb |
-| Notification engine | data.stack:ne.1.0.0 | 4b8e638677d2 |
-| Monitoring | data.stack:mon.1.0.0 | f70010b456c7 |
-| Security | data.stack:sec.1.0.0 | c2f327f11f73 |
+| Proxy | data.stack:proxy.1.0.1 | fbcfb609c3db |
+| Gateway | data.stack:gw.1.0.1 | 379a2cd92416 |
+| Service manager | data.stack:sm.1.0.1 | e1a5545b54c3 |
+| Base image | data.stack:base.1.0.1 | f751fe1532a9 |
+| Partner manager | data.stack:pm.1.0.1 | 2b2ce77e31f9 |
+| B2B gateway | data.stack:b2bgw.1.0.1 | e8bb879191ea |
+| User management | data.stack:user.1.0.1 | bc924e91e03a |
+| Notification engine | data.stack:ne.1.0.1 | 30dfe5d7b3af |
+| Monitoring | data.stack:mon.1.0.1 | 7ebe6d4185ae |
+| Security | data.stack:sec.1.0.1 | a0cbc470fe50 |
 
 ## Changelog
 
 [1.0.0 Changelog](./1.0.0-Changelog.md)
+[1.0.1 Changelog](./1.0.1-Changelog.md)
 
 # Support
 
