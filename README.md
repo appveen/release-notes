@@ -3,3 +3,4 @@
 | Version | Release Notes |
 |--|--|
 | 1.0 | [Release Notes](./1.0)
+| 1.1 | [Release Notes](./1.1)
