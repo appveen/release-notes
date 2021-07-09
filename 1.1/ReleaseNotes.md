@@ -4,117 +4,56 @@
 
 - [Release notes for appveen data.stack 1.1](#release-notes-for-appveen-datastack-11)
 - [Table of contents](#table-of-contents)
-- [1.1.0 - June 26, 2021](#100---june-26-2021)
-	- [Features](#features)
-	- [Issues fixed](#issues-fixed)
-	- [Builds](#builds)
-	- [Changelog](#changelog)
-
+- [Releases](#releases)
+	- [1.1.2 - July 9, 2021](#112---july-9-2021)
+	- [1.1.1 - June 29, 2021](#111---june-29-2021)
+	- [1.1.0 - June 26, 2021](#110---june-26-2021)
+- [Builds](#builds)
 - [Support](#support)
 
+# Releases
 
-# 1.1.0 - June 26,2021
+## 1.1.2 - July 9, 2021
 
-## Features
+| ID | Description |
+|-|-|
+| DEF1390 |	Math API not working for complex structures |
 
-* STO1054 : [Author][UI][FAAS] As a user, I must be able to write and deploy hooks/nanoservices from data.stack UI
-* STO1067 : [Author][UI] As a user, I must be able to purge logs from Insights
-* STO1072 : [Appcenter][UI] Link for relation attributes in the Edit/Save page to be able to navigate to related entity
-* STO1057 : [Author][UI] As a user I must be able to select the functions from function page in hooks
+Detailed changelog: [1.1.2 Changelog](./1.1.2-Changelog.md)
 
-## Issues Fixed
+## 1.1.1 - June 29, 2021
 
-* DEF1366 : [Appcenter][WF] Approval of updated record is throwing error.
-* DEF1362 : [PreHook] Prehook is not working as expected when the hook is external.
-* DEF1363 : [PostHook] Posthook is not working as expected when the hook is external.
-* DEF1364 : [WF Hook] WF hook isn't working as expected when the hook is external.
-* DEF1365 : [Appcenter][DS-WF]:Unable to delete records in DS which has workflow enabled in staging env.
-* DEF1355 : [Appcenter][export] Records exported have extra columns _metadata.deleted, _metadata.version.release, metadata.version.document, __v added in the file.
-* DEF1315 : [Author][Functions] The version of the function should be displayed once its edited.
-* DEF1338 : [AUthor][Functions]:On deleting the functions,its throwing error oops something went wrong and the page is breaking.
-* DEF1336 : [Appcenter][Function]:For functions hook in data service its throwing error 'Pre-save 'test' down! Unable to proceed.' even when the functon is running 
-* DEF1317 : [Appcenter] [secure text] Even when the value for secure text regex is correct it throws '<service_id> validation failed: secure: secure regex is invalid' error and unable to save the record.
-* DEF1229 : [Appcenter][Export All]:Export all is not working.
-* DEF1353 : [Appcenter][Condition]:Condition with library (location)  with equal to  is not working.
-* DEF1354 : [Author][Functions]:Unable to delete a function
-* DEF1352 : [Author][Functions]:Functions are not starting on save and deploy or start  with error in pod logs Error: Cannot find module '@appveen/ds-sdk'
-* DEF1325 : [Appcenter][DS]:For a DS with type user,providing incorrect username and saving the record is throwing incorrect error=> unable to fetch reference data.
-* DEF1349 : [Author][Functions]:Creating a function with same name is throwing error 'entity name already in use'.
-* DEF1327 : [Appcenter][WF] The record ID's are not bring created for workflow enabled DS.
-* DEF1320 : [Author][DS] There is no way to clear the default value for list of values in number.
-* DEF1343 : [Appcenter][Import] Importing records fails in the last the step, throws error 'file cannot be imported due to errors'.
-* DEF1324 : [Appcenter][Data-service]:When a DS has an attribute of type user and with unique property, its throwing incorrect error when unique validation fails while creating a record.
-* DEF1296 : [Author][Functions]:The advance filter options is not visible for user in UI and its not working
-* DEF1302 : [Author][Functions]:The environment varibale are not being picked from configmap and displayed in UI for functions
-* DEF1181 : [Author] [Users] Inline filter for 'Last Login'  is not working as expected
-* DEF1328 : [Appcenter][WF] User who has view permission for related DS is unable to view the records of related DS.
-* DEF1274 :  [Author][Data Service] In the search ID for the relation the drop-down is displaying the attributes of the relation twice.
-* DEF1306 : [Author][Conditions]:The traverse option should be hidden in UI.
-* DEF1295 : [Author][Functions] :In functions , draft status option is not available for inline filter in listing page.
-* DEF1294 : [Author][Functions]:For functions,inline filter for name and url is not working
-* DEF1292 : [Author][Functions]:On creating a new function its not appearing on the listing page until the page is refreshed.
-* DEF1278 : [Anuthor][DS][LIB]:On adding an attribute to DS of type lib  which has no attribute in it is throwning an error on saving the DS.
-* DEF1277 : [Author][Data Services]:On PUT request the post-hook is giving old data value as null.
-* DEF1264 :  The relation field value is shown as 'N.A' when the user has only review permission of the Data Service.
-* DEF1326 : [Author][DS]:The default value for user is not displayed when the DS is open in view mode and then clicking edit mode.
-* DEF1307 : [Appcenter][Work items] The work items aren't loading in a DS.
-* DEF1309 : [Appcenter][Work items] For user with only review permission, the work items aren't loading.
-* DEF1313 : [Author][Functions] In the inline filter drop down of status, DISABLED option is not required.
-* DEF1312 : [Author][Functions] User is able to edit the function in view mode.
-* DEF1314 : [Author][Functions] In the inline filter of status, the PENDING option is not there.
-* DEF1285 : [Appcenter][DataService] Values of View Fields added for the User attribute are not displayed in the records.
-* DEF1291 : [Author][Role][Conditions] Unable to change dataservice in select and traverse 
-* DEF1279 : [Author][Data service] Attribute value in condition is not displayed in view screen
-* DEF1256 : [Author][DS-experience]:On creating a ds with attributes and adding steps and attributes to it, the add action goes down in the screen.
-* DEF1280 : [Author][DS][Condition]:On Put request adding attribute to a  DS and these newly added attributes are not displayed in the condition attribute list .
-* DEF1289[Author][Conditions]:On creating a condition with attribute ID its again asking for add attribute.
-* DEF1284 : [Author][Data Service] 'Delete All' in Design tab breaks UI
-* DEF1290 : [Author][Role][Conditions] Filetype conditions is not working as expected 
-* DEF1226 : [Appcenter][WF][Advance filter] The options in search for field isn't coming up for relation attribute.
-* DEF1225 : [Appcenter][WF][Advance filter] The options in search for field isn't coming up for user attribute.
-* DEF1238 : [Author] [Admin Panel] [Users] Clear filters option is not there
-* DEF1247 : [Author][App Panel] [management] Replace service as 'Services'
-* DEF1283 : [Author][Roles Condition]:Condition with collection attribute is not working
-* DEF1269 : [Author][Data Service][Roles][Library Attribute] Role condition with Library Attribute is not working
-* DEF1246 : [Appcenter] For auto suggestion drop downs user is forced to click then type for suggestions
-* DEF1276 : [Author][Bots]:The info to copy the bots password is not provided on creating a bot key
-* DEF1270 : [Author][Data service]:Unable to save and deploy a data service after adding condition to roles.
-* DEF1245 : [Author][Insights]:The date and time field is not working as expected.
-* DEF1282 : [Author][Roles Condition]:Condition with date attribute is not working
-* DEF1221 : Hide b2b's components(partner,nano service,data format and agents) in groups
-* DEF1048 : [Author]:The app name is not completely displayed ,use a tooltip to display it  on mouseover the app name.
-* DEF1125 : [Appcenter] Data Service is displayed in both 'Starred' and 'Others'  list
-* DEF1222 : [Appcenter] inline filter for created on and updated on are not working
-* DEF1275 :  [Author][Data Service][Roles] When trying to create condition the LoggedInUser Options are not displayed for selection
-* DEF1243 : [Author][DS][Integration]:On editing a prehook,it should show save button and not add button.
-* DEF1250 : [Author][DS-integration]:On editing any integration hook its shows add instead of save the hook
-* DEF1255 : [Author][DS-experience]:The error info for experience hook's name is incorrect.
-* DEF1260 : [author][Insights]:In Insights,change the time column to date and time in all the tabs.
-* DEF1165 : [Author][Insights]:For DS tab in insights,when the date value provided in inline filter for time column unable to clear the value.
-* DEF1139 : [Appcenter][Advance filter]:In advance filter for a ds,for boolean attribute  search option shows true and false but in records its shows yes/no.
-* DEF1257 : [Author][DS-experience]:When the step name is not entered display an error info for the step name text box
-* DEF1271 :	[Author][Data Service]:In roles under select  condition,when an user/relation/library attribute is selected no option is provided to enter the value.
-* DEF1272 :	[Author][Data service] Unable to save and deploy a data service after deleting condition to roles.
+| ID | Description |
+|-|-|
+| DEF1374 |	FaaS is only working for superadmins |
 
-## Builds
+Detailed changelog: [1.1.1 Changelog](./1.1.1-Changelog.md)
 
-| Component | Image | Image ID |
-|--|--|--|
-| Proxy | data.stack:proxy.1.1.0 | 913d9ffebed0 |
-| DM | data.stack:dm.1.1.0 | fc003b709f41 |
-| Gateway | data.stack:gw.1.1.0 | 0bf4ee066d65 |
-| Service manager | data.stack:sm.1.1.0 | d15363558dfe |
-| Base image | data.stack:base.1.1.0 | b56387478f44 |
-| Partner manager | data.stack:pm.1.1.0 | 00156096e918 |
-| User management | data.stack:user.1.1.0 | 45c9d67c42fc |
-| Notification engine | data.stack:ne.1.1.0 | 511e5888db45 |
-| Monitoring | data.stack:mon.1.1.0 | 10cb4e06f507 |
-| Security | data.stack:sec.1.1.0 | bf4b3be73777 |
+## 1.1.0 - June 26, 2021
 
-## Changelog
-[1.1.0 Changelog](./1.1.0-Changelog.md)
+| ID | Description |
+|-|-|
+| STO1054 | [Author][UI][FAAS] As a user, I must be able to write and deploy hooks/nanoservices from data.stack UI |
+| STO1067 | [Author][UI] As a user, I must be able to purge logs from Insights |
+| STO1072 | [Appcenter][UI] Link for relation attributes in the Edit/Save page to be able to navigate to related entity |
+| STO1057 | [Author][UI] As a user I must be able to select the functions from function page in hooks |
 
+Detailed changelog: [1.1.0 Changelog](./1.1.0-Changelog.md)
 
+# Builds
+
+| Component | Short code | Image | Image ID |
+|--|--|--|--|
+| Proxy | proxy | data.stack:proxy.1.1.0 | 913d9ffebed0 |
+| Deployment manager | dm | data.stack:dm.1.1.0 | fc003b709f41 |
+| Gateway | gw | data.stack:gw.1.1.1 | 996fe48354e8 |
+| Service manager | sm | data.stack:sm.1.1.1 | b7ab57e8949d |
+| Base image | base | data.stack:base.1.1.1 | f46fd041a9fe |
+| Partner manager | pm | data.stack:pm.1.1.0 | 00156096e918 |
+| User management | user | data.stack:user.1.1.0 | 45c9d67c42fc |
+| Notification engine | ne | data.stack:ne.1.1.0 | 511e5888db45 |
+| Monitoring | mon | data.stack:mon.1.1.0 | 10cb4e06f507 |
+| Security | sec | data.stack:sec.1.1.0 | bf4b3be73777 |
 
 # Support
 
