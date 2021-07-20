@@ -5,6 +5,7 @@
 - [Release notes for appveen data.stack 1.1](#release-notes-for-appveen-datastack-11)
 - [Table of contents](#table-of-contents)
 - [Releases](#releases)
+	- [1.1.3 - July 14, 2021](#113---july-14-2021)
 	- [1.1.2 - July 9, 2021](#112---july-9-2021)
 	- [1.1.1 - June 29, 2021](#111---june-29-2021)
 	- [1.1.0 - June 26, 2021](#110---june-26-2021)
@@ -12,6 +13,31 @@
 - [Support](#support)
 
 # Releases
+
+## 1.1.3 - July 14, 2021
+
+| ID | Description |
+|-|-|
+| DEF1388 | \[Author\] User with manage permission for Data services is not able to save & deploy the DS. |
+| DEF1330 | \[Appcenter\]\[WF\] Unable to approve or reject work items which has deleted record relation. |
+| DEF1380 | \[Cloud\] data.stack > Stories is not loading more records. |
+| DEF1379 | \[File Type Restriction\] If user have a  .exe file and rename the extension to any acceptable file type, it allows the upload. |
+| DEF1378 | \[Appcenter\] File Attachment, Validation not working. |
+| DEF1360 | \[Author\]\[Groups\] user who has view permission for basic settings and members tab under groups is unable to view members of group. |
+| DEF1377 | \[Author\]\[FAAS\] Last invoked data is not coming up for functions. |
+| DEF1291 | \[Author\]\[Role\]\[Conditions\] Unable to change dataservice in select and traverse  |
+| DEF1290 | \[Author\]\[Role\]\[Conditions\] Filetype conditions is not working as expected  |
+| DEF1284 | \[Author\]\[Data Service\] "Delete All" in Design tab breaks UI |
+| DEF1279 | \[Author\]\[Data service\] Attribute value in condition is not displayed in view screen |
+| DEF1384 | \[Author\]\[Data Service\]:The file extension should be removed from the settings tab. |
+| DEF1373 | AppCenter UI stuck when trying to logout again |
+| DEF1367 | \[Author\] Relationships -> Search on field is not visible on view screen |
+| DEF1358 | \[Author\]\[Groups\]:User permission are not working as expected. |
+| DEF1347 | \[Appcenter\]\[History\] In WF enabled DS, the record history shows the approver as creator. |
+| DEF1335 | \[Appcenter\] Inline filter for date in collection of group of date isn't working. |
+| DEF1359 | \[Author\]\[Groups\]:User with bots end session permission does not have an option to end session of the bot, the end session button is not available in UI |
+
+Detailed changelog: [1.1.3 Changelog](./1.1.3-Changelog.md)
 
 ## 1.1.2 - July 9, 2021
 
