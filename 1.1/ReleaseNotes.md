@@ -5,15 +5,28 @@
 - [Release notes for appveen data.stack 1.1](#release-notes-for-appveen-datastack-11)
 - [Table of contents](#table-of-contents)
 - [Releases](#releases)
+	- [1.1.5 - August 4th, 2021](#115---august-4th-2021)
 	- [1.1.4 - July 20, 2021](#114---july-20-2021)
 	- [1.1.3 - July 14, 2021](#113---july-14-2021)
 	- [1.1.2 - July 9, 2021](#112---july-9-2021)
 	- [1.1.1 - June 29, 2021](#111---june-29-2021)
 	- [1.1.0 - June 26, 2021](#110---june-26-2021)
-- [Builds](#builds)
 - [Support](#support)
 
 # Releases
+
+## 1.1.5 - August 4th, 2021
+
+| ID | Description | 
+|-|-|
+| STORY1091 | \[TXN\] As a user i should be able to CUD data on multiple data-services using transactions with pre-hooks |
+| STORY1090 | \[TXN\] As a user i should be able to CUD data on multiple data-services using transactions |
+| STORY1089 | \[TXN\] As a user i should NOT be allowed to do CUD data on data-services using transactions if workflow has been enabled and i don't have Skip-Review permissions |
+| STORY1088 | \[TXN\] As a user i should be able to CUD data on data-services using transactions if workflow has been enabled and i have Skip-Review permissions |
+| STORY1086 | \[TXN\] As a user i should be able to CUD data on a data-service using transactions with pre-hooks |
+| STORY1085 | \[TXN\] As a user i should be able to CUD data on a single data-service using transactions |
+
+Detailed changelog: [1.1.5 Changelog](./1.1.5-Changelog.md)
 
 ## 1.1.4 - July 20, 2021
 
@@ -21,6 +34,8 @@
 |-|-|
 | DEF1395 | \[Appcenter\] Unable to export records after applying filter. |
 | DEF1396 | Multiple posthooks not working |
+
+Detailed changelog: [1.1.4 Changelog](./1.1.4-Changelog.md)
 
 ## 1.1.3 - July 14, 2021
 
@@ -73,21 +88,6 @@ Detailed changelog: [1.1.1 Changelog](./1.1.1-Changelog.md)
 | STO1057 | [Author][UI] As a user I must be able to select the functions from function page in hooks |
 
 Detailed changelog: [1.1.0 Changelog](./1.1.0-Changelog.md)
-
-# Builds
-
-| Component | Short code | Image | Image ID |
-|--|--|--|--|
-| Proxy | proxy | data.stack:proxy.1.1.0 | 913d9ffebed0 |
-| Deployment manager | dm | data.stack:dm.1.1.0 | fc003b709f41 |
-| Gateway | gw | data.stack:gw.1.1.1 | 996fe48354e8 |
-| Service manager | sm | data.stack:sm.1.1.2 | 87062baa8ec9 |
-| Base image | base | data.stack:base.1.1.2 | 4e19460bafe8 |
-| Partner manager | pm | data.stack:pm.1.1.0 | 00156096e918 |
-| User management | user | data.stack:user.1.1.0 | 45c9d67c42fc |
-| Notification engine | ne | data.stack:ne.1.1.0 | 511e5888db45 |
-| Monitoring | mon | data.stack:mon.1.1.0 | 10cb4e06f507 |
-| Security | sec | data.stack:sec.1.1.0 | bf4b3be73777 |
 
 # Support
 
