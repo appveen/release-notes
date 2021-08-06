@@ -11,6 +11,7 @@
 	- [1.1.2 - July 9, 2021](#112---july-9-2021)
 	- [1.1.1 - June 29, 2021](#111---june-29-2021)
 	- [1.1.0 - June 26, 2021](#110---june-26-2021)
+- [Images](#images)
 - [Support](#support)
 
 # Releases
@@ -88,6 +89,25 @@ Detailed changelog: [1.1.1 Changelog](./1.1.1-Changelog.md)
 | STO1057 | [Author][UI] As a user I must be able to select the functions from function page in hooks |
 
 Detailed changelog: [1.1.0 Changelog](./1.1.0-Changelog.md)
+
+# Images
+
+| Component | Short code | Image |
+|--|--|--|
+| Service manager | sm | data.stack:sm.1.1.3 |
+| Base | base | data.stack:base.1.1.3 |
+| Gateway | gw | data.stack:gw.1.1.3 |
+| Common | common | data.stack:common.1.1.0 |
+| Proxy | proxy | data.stack:proxy.1.1.2 |
+| User | user | data.stack:user.1.1.1 |
+| Deployment manager | dm | data.stack:dm.1.1.2 |
+| Notification engine | ne | data.stack:ne.1.1.1 |
+| Security | sec | data.stack:sec.1.1.2 |
+| Monitoring | mon | data.stack:mon.1.1.1 |
+| Partner manager | pm | data.stack:pm.1.1.1 |
+| FaaS base image | faas-base | data.stack:faas.base.1.1.1 |
+| B2B Gateway | b2bgw | data.stack:b2bgw.1.1.2 |
+| B2B base image| b2b-base | data.stack:b2b.base.1.1.2 |
 
 # Support
 
