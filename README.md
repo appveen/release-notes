@@ -4,4 +4,4 @@
 |--|--|
 | 1.0 | [Release Notes](./1.0)
 | 1.1 | [Release Notes](./1.1)
-| 2.0 | [Release Notes](./2.0)
+| 2.x | [Release Notes](./2.x)
