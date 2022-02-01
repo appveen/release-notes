@@ -5,21 +5,51 @@
 - [Release notes for appveen data.stack 2.0](#release-notes-for-appveen-datastack-20)
 - [Table of contents](#table-of-contents)
 - [Releases](#releases)
-	- [2.0.0 - January 12th, 2021](#200---january-12th-2021)
-		- [Stories and Defects](#stories-and-defects)
+	- [2.1.0 - January 28th, 2022](#210---january-28th-2022)
+		- [Defects](#defects)
 		- [Detailed changelog](#detailed-changelog)
+	- [2.0.0 - January 12th, 2022](#200---january-12th-2022)
+		- [Stories and Defects](#stories-and-defects)
+		- [Detailed changelog](#detailed-changelog-1)
 		- [Known issues](#known-issues)
 - [Images](#images)
 - [Support](#support)
 
 # Releases
 
-## 2.0.0 - January 12th, 2021
+## 2.1.0 - January 28th, 2022
+
+* Removed Security deployment and simplified the security architecture.
+
+### Defects
+
+| ID | Description |
+|-|-|
+| DEF1740 | \[AppCenter\]: Exact value is not showing for 'Secure Text' while checking the history |
+| DEF1737 | \[AppCenter\]: Unable to save the record with 'Secure Text' type |
+| DEF1742 | \[AppCenter\]: Relation issue with 'Secure Text' type |
+| DEF1739 | \[AppCenter\]: 'Secure Text' value not showing in exported doc |
+| DEF1749 | \[Appcenter\] Bulk export is not working when secure text field does not have value |
+| DEF1748 | \[AppCenter\] secure text value is not showing for bulk import. |
+| DEF1735 | JWT token is not getting expired. |
+| DEF1733 | \[Pods\]Deployment version to be removed from the ds and faas pod |
+| DEF1734 | \[DS 2.0.0 Installation\] Installation failing on a fresh machine with no data |
+| DEF1728 | data.satck 2.0 new install fails because USR is not able to create default users |
+| DEF1729 | Remove info level mogodb, nats and redis logs |
+
+### Detailed changelog
+
+[2.1.0 Changelog](2.1.0-Changelog.md)
+
+---
+
+## 2.0.0 - January 12th, 2022
 
 * data.stack SDK is now at 2.0
 * All Author side APIs (`/api/a`) must have an additional query parameter `?app=<appName>`
 
 ### Stories and Defects
+
 | ID | Description | 
 |-|-|
 | STO1013 | \[UI\]  Multilevel Workflow & Field Level access control |
@@ -56,22 +86,25 @@
 * DEF1693	[Maker Checker] Unable to respond to old records if the checker step name is renamed.
 * DEF1508	[Author] User with view permission for insights is not able to see users list.
 
+---
+
 # Images
 
 | Component | Short code | Image |
 |--|--|--|
-| Service manager | sm | data.stack:sm.2.0.0 |
-| Base | base | data.stack:base.2.0.0 |
-| Gateway | gw | data.stack:gw.2.0.0 |
-| Common | common | data.stack:common.2.0.0 |
-| Proxy | proxy | data.stack:proxy.2.0.0 |
-| User | user | data.stack:user.2.0.0 |
+| Base | base | data.stack:base.2.1.0 |
+| Common | common | data.stack:common.2.1.0 |
 | Deployment manager | dm | data.stack:dm.2.0.0 |
-| Notification engine | ne | data.stack:ne.2.0.0 |
-| Security | sec | data.stack:sec.2.0.0 |
+| FaaS base image | faas-base | data.stack:faas.base.2.1.0 |
+| Gateway | gw | data.stack:gw.2.1.0 |
 | Monitoring | mon | data.stack:mon.2.0.0 |
-| Partner manager | pm | data.stack:pm.2.0.0 |
-| FaaS base image | faas-base | data.stack:faas.base.2.0.0 |
+| Notification engine | ne | data.stack:ne.2.0.0 |
+| Partner manager | pm | data.stack:pm.2.1.0 |
+| Proxy | proxy | data.stack:proxy.2.1.0 |
+| Service manager | sm | data.stack:sm.2.1.0 |
+| User | user | data.stack:user.2.1.0 |
+
+---
 
 # Support
 
