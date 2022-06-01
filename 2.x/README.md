@@ -8,3 +8,4 @@
   * [2.1.0](2.1.0-Changelog.md)
   * [2.2.0](2.2.0-Changelog.md)
   * [2.3.0](2.3.0-Changelog.md)
+  * [2.3.1](2.3.1-Changelog.md)

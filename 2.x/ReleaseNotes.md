@@ -5,6 +5,7 @@
 - [Release notes for appveen data.stack 2.0](#release-notes-for-appveen-datastack-20)
 - [Table of contents](#table-of-contents)
 - [Releases](#releases)
+	- [2.3.1 - May 31st, 2022](#231---may-31st-2022)
 	- [2.3.0 - May 15th, 2022](#230---may-15th-2022)
 	- [2.2.0 - March 25th, 2022](#220---march-25th-2022)
 		- [Stories](#stories)
@@ -20,6 +21,18 @@
 
 # Releases
 
+## 2.3.1 - May 31st, 2022
+
+Fix for vulnerability [CVE-2022-24434](https://github.com/advisories/GHSA-wm7h-9275-46v2)
+
+| ID | Description |
+|-|-|
+| DEF1996 | CVE-2022-24434: Multer vilnerability |
+| DEF1995 | SDK not working in Function |
+
+[2.3.1 Changelog](2.3.1-Changelog.md)
+
+---
 ## 2.3.0 - May 15th, 2022
 
 Major changes
@@ -27,6 +40,10 @@ Major changes
 * `STORY1126 Remove Docker build dependency`
 
 We no longer build customer docker images for the data services, functions or flows. This removes the dependency on having to push to a docker registry. With this fix the DM component has also been removed.
+
+[2.3.0 Changelog](2.3.0-Changelog.md)
+
+---
 
 ## 2.2.0 - March 25th, 2022
 
@@ -44,6 +61,9 @@ Major changes
 | STORY1112 | As a data.satck admin, i should be able to configure Azure Blob for file storage. |
 | STORY1111 | \[SEC\] Removing ds-sec secrets. |
 
+[2.2.0 Changelog](2.2.0-Changelog.md)
+
+---
 
 ## 2.1.0 - January 28th, 2022
 
@@ -120,17 +140,17 @@ Major changes
 
 | Component | Short code | Image |
 |--|--|--|
-| Base | base | data.stack:base.2.1.0 |
-| Common | common | data.stack:common.2.1.0 |
-| Deployment manager | dm | data.stack:dm.2.0.0 |
-| FaaS base image | faas-base | data.stack:faas.base.2.1.0 |
-| Gateway | gw | data.stack:gw.2.1.0 |
-| Monitoring | mon | data.stack:mon.2.0.0 |
-| Notification engine | ne | data.stack:ne.2.0.0 |
-| Partner manager | pm | data.stack:pm.2.1.0 |
-| Proxy | proxy | data.stack:proxy.2.1.0 |
-| Service manager | sm | data.stack:sm.2.1.0 |
-| User | user | data.stack:user.2.1.0 |
+| Proxy | proxy | data.stack.proxy:2.3.0 |
+| Gateway | gw | data.stack.gw:2.3.0 |
+| User | user | data.stack.user:2.3.0 |
+| Common | common | data.stack.common:2.3.0 |
+| Service manager | sm | data.stack.sm:2.3.1 |
+| Base | base | data.stack.base:2.3.1 |
+| B2B manager | mm | data.stack.bm:2.3.1 |
+| FaaS base image | faas-base | data.stack.faas.base:2.3.1 |
+| B2B base image | faas-base | data.stack.b2b.base:2.3.1 |
+| Monitoring | mon | data.stack.mon:2.3.0 |
+| Notification engine | ne | data.stack.ne:2.3.0 |
 
 ---
 
