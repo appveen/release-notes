@@ -17,6 +17,31 @@
 
 # Releases
 
+## 2.3.0 - May 15th, 2022
+
+Major changes
+
+* `STORY1126 Remove Docker build dependency`
+
+We no longer build customer docker images for the data services, functions or flows. This removes the dependency on having to push to a docker registry. With this fix the DM component has also been removed.
+
+## 2.2.0 - March 25th, 2022
+
+Major changes
+
+* Schema-free data-services
+* Images follow new naming convention.
+
+### Stories
+
+| ID | Description |
+|-|-|
+| STORY1103 | Schema-free data services |
+| STORY1117 | Rename images |
+| STORY1112 | As a data.satck admin, i should be able to configure Azure Blob for file storage. |
+| STORY1111 | \[SEC\] Removing ds-sec secrets. |
+
+
 ## 2.1.0 - January 28th, 2022
 
 * Removed Security deployment and simplified the security architecture.
