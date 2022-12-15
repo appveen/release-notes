@@ -5,29 +5,50 @@
 - [Release notes for appveen data.stack 2.0](#release-notes-for-appveen-datastack-20)
 - [Table of contents](#table-of-contents)
 - [Releases](#releases)
-	- [2.5.0 - Aug 31st, 2022](#250---aug-31st-2022)
+	- [2.6.0 - Nov 30st, 2022](#260---nov-30st-2022)
 		- [Detailed changelog](#detailed-changelog)
-	- [2.4.0 - July 18th, 2022](#240---july-18th-2022)
+	- [2.5.0 - Aug 31st, 2022](#250---aug-31st-2022)
 		- [Detailed changelog](#detailed-changelog-1)
-	- [2.3.1 - May 31st, 2022](#231---may-31st-2022)
+	- [2.4.0 - July 18th, 2022](#240---july-18th-2022)
 		- [Detailed changelog](#detailed-changelog-2)
-	- [2.3.0 - May 15th, 2022](#230---may-15th-2022)
+	- [2.3.1 - May 31st, 2022](#231---may-31st-2022)
 		- [Detailed changelog](#detailed-changelog-3)
+	- [2.3.0 - May 15th, 2022](#230---may-15th-2022)
+		- [Detailed changelog](#detailed-changelog-4)
 	- [2.2.0 - March 25th, 2022](#220---march-25th-2022)
 		- [Stories](#stories)
-		- [Detailed changelog](#detailed-changelog-4)
+		- [Detailed changelog](#detailed-changelog-5)
 	- [2.1.0 - January 28th, 2022](#210---january-28th-2022)
 		- [Defects](#defects)
-		- [Detailed changelog](#detailed-changelog-5)
+		- [Detailed changelog](#detailed-changelog-6)
 	- [2.0.0 - January 12th, 2022](#200---january-12th-2022)
 		- [Stories and Defects](#stories-and-defects)
-		- [Detailed changelog](#detailed-changelog-6)
+		- [Detailed changelog](#detailed-changelog-7)
 		- [Known issues](#known-issues)
 - [Images](#images)
 - [Support](#support)
 
 # Releases
 
+## 2.6.0 - Nov 30st, 2022
+
+* Integrations (Beta)
+* Connectors
+
+| ID | Description |
+|-|-|
+| STORY1136 | [B2B] Connectors - DB - PG |
+| STORY1137 | [B2B] Connectors - DB - MongoDB |
+| STORY1138 | [B2B] Connectors - SFTP |
+| STORY1139 | [B2B] Connectors - Queue - Kafka |
+| STORY1151 | B2B - Connectors - Default MongoDB connector for an App |
+| STORY1152 | [Connectors] Add a test button on the connector definition page |
+| STORY1153 | [Connectors] While creating a data service, choose a table/view from the database connector selected |
+
+### Detailed changelog
+[2.6.0 Changelog](2.6.0-Changelog.md)
+
+---
 ## 2.5.0 - Aug 31st, 2022
 
 * Integrations (Beta)
