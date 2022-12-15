@@ -5,6 +5,7 @@
 - [Release notes for appveen data.stack 2.0](#release-notes-for-appveen-datastack-20)
 - [Table of contents](#table-of-contents)
 - [Releases](#releases)
+	- [2.4.0 - July 18th, 2022](#240---july-18th-2022)
 	- [2.3.1 - May 31st, 2022](#231---may-31st-2022)
 	- [2.3.0 - May 15th, 2022](#230---may-15th-2022)
 	- [2.2.0 - March 25th, 2022](#220---march-25th-2022)
@@ -20,6 +21,23 @@
 - [Support](#support)
 
 # Releases
+
+## 2.4.0 - July 18th, 2022
+
+* Encrypt any text field
+* File level encryption for AzureBlob
+
+| ID | Description |
+|-|-|
+| STORY1134 | [UI][User] An App Admin Should be able to reset password of a user. |
+| STORY1125 | As a user I should be able to decrypt the file outside of data.stack using a decryption utility |
+| STORY1124 | As a user I should be able to download a file after decrypting by providing the password |
+| STORY1121 | As a user I should be able to apply encryption to Rich Text |
+| STORY1123 | As a user I should be able to download an encrypted file |
+| STORY1120 | As a user I should be able to apply encryption to Long Text |
+| STORY1118 | As a user I should be able to import a user from Azure AD to data.stack |
+| STORY1122 | As a user I should be able to apply encryption and attach a file |
+| STORY1119 | As a user I should be able to bulk-import users from Azure AD to data.stack |
 
 ## 2.3.1 - May 31st, 2022
 
