@@ -5,22 +5,47 @@
 - [Release notes for appveen data.stack 2.0](#release-notes-for-appveen-datastack-20)
 - [Table of contents](#table-of-contents)
 - [Releases](#releases)
+	- [2.5.0 - Aug 31st, 2022](#250---aug-31st-2022)
+		- [Detailed changelog](#detailed-changelog)
 	- [2.4.0 - July 18th, 2022](#240---july-18th-2022)
+		- [Detailed changelog](#detailed-changelog-1)
 	- [2.3.1 - May 31st, 2022](#231---may-31st-2022)
+		- [Detailed changelog](#detailed-changelog-2)
 	- [2.3.0 - May 15th, 2022](#230---may-15th-2022)
+		- [Detailed changelog](#detailed-changelog-3)
 	- [2.2.0 - March 25th, 2022](#220---march-25th-2022)
 		- [Stories](#stories)
+		- [Detailed changelog](#detailed-changelog-4)
 	- [2.1.0 - January 28th, 2022](#210---january-28th-2022)
 		- [Defects](#defects)
-		- [Detailed changelog](#detailed-changelog)
+		- [Detailed changelog](#detailed-changelog-5)
 	- [2.0.0 - January 12th, 2022](#200---january-12th-2022)
 		- [Stories and Defects](#stories-and-defects)
-		- [Detailed changelog](#detailed-changelog-1)
+		- [Detailed changelog](#detailed-changelog-6)
 		- [Known issues](#known-issues)
 - [Images](#images)
 - [Support](#support)
 
 # Releases
+
+## 2.5.0 - Aug 31st, 2022
+
+* Integrations (Beta)
+* UBAC/DBAC
+* UI Refrest
+
+| ID | Description |
+|-|-|
+| STORY1130 | [B2B] [Integration] Backend to deploy flows and logic |
+| STORY1129 | [B2B] [Integration] New UI to create flows |
+| STORY1128 | [UBAC/RBAC] Dynamic filters under roles in DS. |
+| STORY1132 | [UI] [Author] UI Refresh |
+| STORY1133 | [UI] [Appcenter] UI Refresh |
+
+### Detailed changelog
+[2.5.0 Changelog](2.5.0-Changelog.md)
+
+---
 
 ## 2.4.0 - July 18th, 2022
 
@@ -39,6 +64,11 @@
 | STORY1122 | As a user I should be able to apply encryption and attach a file |
 | STORY1119 | As a user I should be able to bulk-import users from Azure AD to data.stack |
 
+### Detailed changelog
+[2.4.0 Changelog](2.4.0-Changelog.md)
+
+---
+
 ## 2.3.1 - May 31st, 2022
 
 Fix for vulnerability [CVE-2022-24434](https://github.com/advisories/GHSA-wm7h-9275-46v2)
@@ -48,6 +78,7 @@ Fix for vulnerability [CVE-2022-24434](https://github.com/advisories/GHSA-wm7h-9
 | DEF1996 | CVE-2022-24434: Multer vilnerability |
 | DEF1995 | SDK not working in Function |
 
+### Detailed changelog
 [2.3.1 Changelog](2.3.1-Changelog.md)
 
 ---
@@ -59,6 +90,7 @@ Major changes
 
 We no longer build customer docker images for the data services, functions or flows. This removes the dependency on having to push to a docker registry. With this fix the DM component has also been removed.
 
+### Detailed changelog
 [2.3.0 Changelog](2.3.0-Changelog.md)
 
 ---
@@ -79,6 +111,7 @@ Major changes
 | STORY1112 | As a data.satck admin, i should be able to configure Azure Blob for file storage. |
 | STORY1111 | \[SEC\] Removing ds-sec secrets. |
 
+### Detailed changelog
 [2.2.0 Changelog](2.2.0-Changelog.md)
 
 ---
