@@ -5,7 +5,7 @@
 - [Release notes for appveen data.stack 2.0](#release-notes-for-appveen-datastack-20)
 - [Table of contents](#table-of-contents)
 - [Releases](#releases)
-	- [2.6.0 - Nov 30st, 2022](#260---nov-30st-2022)
+	- [2.6.0 - Nov 30th, 2022](#260---nov-30th-2022)
 		- [Detailed changelog](#detailed-changelog)
 	- [2.5.0 - Aug 31st, 2022](#250---aug-31st-2022)
 		- [Detailed changelog](#detailed-changelog-1)
@@ -30,7 +30,7 @@
 
 # Releases
 
-## 2.6.0 - Nov 30st, 2022
+## 2.6.0 - Nov 30th, 2022
 
 * Integrations (Beta)
 * Connectors
