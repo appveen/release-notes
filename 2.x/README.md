@@ -9,3 +9,9 @@
   * [2.2.0](2.2.0-Changelog.md)
   * [2.3.0](2.3.0-Changelog.md)
   * [2.3.1](2.3.1-Changelog.md)
+  * [2.4.0](2.4.0-Changelog.md)
+  * [2.5.0](2.5.0-Changelog.md)
+  * [2.6.0](2.6.0-Changelog.md)
+  * [2.6.1](2.6.1-Changelog.md)
+  * [2.6.2](2.6.2-Changelog.md)
+
